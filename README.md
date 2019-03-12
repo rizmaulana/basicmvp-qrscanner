@@ -30,7 +30,7 @@ Untuk mengubah nama dan package aplikasi silakan buka directory **/app/src/build
 
 Semoga bermanfaat
 
-###License
+
 ````
               DO WHAT YOU WANT TO PUBLIC LICENSE
                      Version 1, March 2019
