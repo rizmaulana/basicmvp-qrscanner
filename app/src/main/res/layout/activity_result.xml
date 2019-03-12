@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:padding="@dimen/spaceLarge"
+    android:background="@color/colorWhite"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".app.module.result.ResultActivity">
+
+    <Switch
+        android:id="@+id/switch_barcode"
+        style="@style/CaptionMedium"
+        android:layout_marginTop="@dimen/spaceLarge"
+        android:text="@string/xml_show_as_barcode"
+        android:layout_gravity="end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:visibility="gone"
+        android:scaleType="fitXY"
+        android:id="@+id/img_code"
+        android:layout_marginTop="@dimen/spaceLarge"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mediumIcon"/>
+
+    <ImageView
+        android:id="@+id/img_qrcode"
+        android:layout_marginTop="@dimen/spaceLarge"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mediumIcon"/>
+    <TextView
+        android:id="@+id/txt_result"
+        style="@style/TitleSecondary"
+        android:text="Result goes here!"
+        android:layout_marginTop="@dimen/spaceMedium"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <include layout="@layout/layout_scaner_option"/>
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- <color name="colorPrimary">#00A2B9</color>
+     <color name="colorPrimaryDark">#035B71</color>
+     <color name="colorAccent">#00aeef</color> -->
+
+    <color name="colorPrimary">#3CA1E5</color>
+    <color name="colorPrimaryDark">#6E5FF8</color>
+    <color name="colorAccent">#3CA1E5</color>
+
+    <!-- basic colors -->
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="cColorBlack">#000000</color>
+    <color name="textPrimary">#424242</color>
+    <color name="textSecondary">#727272</color>
+    <color name="backgroundGrey">#EFF0F1</color>
+    <color name="colorTransperant">#00000000</color>
+    <color name="defaultBackground">#e9e9e9</color>
+    <color name="transparentWhite">#80FFFFFF</color>
+    <color name="searchBackground">#383436</color>
+    <color name="commonBackground">#4a484b</color>
+    <color name="grey">#eeeeee</color>
+
+    <color name="transparentDark">#80000000</color>
+    <color name="materialAmberLight">#ffe9aa</color>
+    <color name="plnmobileButtonColor">#FF63A6AE</color>
+    <color name="materialRedTransaparent">#60F44336</color>
+    <color name="materialBlueTransaparent">#201976D2</color>
+
+
+    <!-- material colors-->
+    <color name="materialRed">#F44336</color>
+    <color name="materialPink">#FF4081</color>
+    <color name="materialBlue">#1976D2</color>
+    <color name="materialPurple">#E040FB</color>
+    <color name="materialYellow">#FFEB3B</color>
+    <color name="materialGreen">#4CAF50</color>
+    <color name="materialLightGreen">#8BC34A</color>
+    <color name="materialAmber">#FFC107</color>
+</resources>

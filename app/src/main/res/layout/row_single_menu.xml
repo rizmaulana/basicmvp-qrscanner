@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@color/colorWhite"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/spaceLarge">
+
+    <ImageView
+        android:id="@+id/m_icon"
+        android:layout_width="@dimen/verysSmallIcon"
+        android:layout_height="@dimen/vectorIcon"
+        android:layout_marginRight="@dimen/spaceLarge"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/m_txt_title"
+            style="@style/CaptionMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Set your title here"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/m_txt_subtitle"
+            style="@style/CaptionSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set your subtitle and description here"
+            android:textColor="@color/textPrimary"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_chevron_right"/>
+
+
+</LinearLayout>

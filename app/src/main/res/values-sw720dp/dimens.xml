@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSmall">15sp</dimen>
+    <dimen name="textMedium">17sp</dimen>
+    <dimen name="textLarge">20sp</dimen>
+    <dimen name="textExtraLarge">26sp</dimen>
+
+    <dimen name="spaceSmall">5dp</dimen>
+    <dimen name="spaceMedium">10dp</dimen>
+    <dimen name="spaceLarge">15dp</dimen>
+    <dimen name="spaceExtraLarge">22dp</dimen>
+
+    <dimen name="toolbarHeight">70dp</dimen>
+    <dimen name="cornerRadius">5dp</dimen>
+
+    <dimen name="vectorIcon">32dp</dimen>
+
+    <dimen name="verysSmallIcon">46dp</dimen>
+    <dimen name="smallIcon">120dp</dimen>
+    <dimen name="mediumIcon">160dp</dimen>
+    <dimen name="largeIcon">320dp</dimen>
+
+    <dimen name="headerSmall">95dp</dimen>
+    <dimen name="headerMedium">160dp</dimen>
+    <dimen name="headerLarge">245dp</dimen>
+
+    <dimen name="magazineHeight">320dp</dimen>
+
+</resources>

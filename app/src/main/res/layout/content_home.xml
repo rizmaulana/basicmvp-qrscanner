@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="id.sheendev.qrbarcodescanner.app.module.home.HomeActivity"
+    tools:showIn="@layout/app_bar_home">
+    <FrameLayout
+        android:layout_marginRight="@dimen/spaceLarge"
+        android:layout_marginLeft="@dimen/spaceLarge"
+        android:layout_weight="1"
+        android:padding="@dimen/spaceLarge"
+        android:background="@drawable/background_fill_white"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <com.journeyapps.barcodescanner.CompoundBarcodeView
+            android:id="@+id/scanner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </FrameLayout>
+    <include layout="@layout/layout_ads_banner"/>
+</LinearLayout>

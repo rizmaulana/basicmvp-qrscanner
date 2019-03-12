@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="warn_form_required">Data pada field ini wajib untuk diisi</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="msg_please_wait">Please wait, processing your request</string>
+    <string name="err_unexpected_error">Cannot procced your request, please try again later</string>
+    <string name="err_permission_denied">Cannot open application, please grant the permissions</string>
+    <string name="xml_copyright">SheenDev © Copyright 2018</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="msg_not_logedin">Welcome to the App!</string>
+    <string name="btn_login">Login</string>
+    <string name="msg_greetings">Hello,</string>
+    <string name="menu_account">Account</string>
+    <string name="menu_main_menu">Main Menu</string>
+    <string name="menu_history">History</string>
+    <string name="menu_scan_image">Scan From Image</string>
+    <string name="menu_other">Other</string>
+    <string name="menu_setting">About</string>
+    <string name="menu_generate_barcode">Generate Barcode</string>
+    <string name="menu_generate_qrcode">Generate QR Code</string>
+    <string name="msg_place_barcode">Place the barcode / qr code inside the rectangle</string>
+    <string name="msg_share_code">%1$s \n\nDownload %2$s on Google Play Store : %3$s</string>
+
+    <string name="xml_scanner_result">Scanner Result</string>
+    <string name="xml_share">Share</string>
+    <string name="xml_copy">Copy to Clipboard </string>
+    <string name="xml_open_in_browser">Open in Browser</string>
+    <string name="xml_save_image">Save as Image</string>
+
+    <string name="xml_show_as_barcode">Show result as Barcode</string>
+    <string name="ms_copy_clipboard">Text has been copied on clipboard</string>
+    <string name="xml_user_profile">User Profile</string>
+    <string name="xml_sigout">Sign Out</string>
+    <string name="msg_login_first">You are not signed in yet, please sign in to open this menu.</string>
+    <string name="lbl_signin">Sign in</string>
+    <string name="lbl_ok">OK</string>
+    <string name="title_account">Account</string>
+    <string name="xml_signin_using_gmail">You are sign in using your Gmail account</string>
+    <string name="xml_rate_review">Rate and Review</string>
+    <string name="xml_rate_review_desc">Send love for this application</string>
+    <string name="xml_share_app">Share</string>
+    <string name="xml_share_app_desc">Yell your friends to download this amazing app</string>
+    <string name="xml_private_message">Private Message</string>
+    <string name="xml_private_message_desc">Tell us how to make this app better</string>
+    <string name="xml_signout_question">Are you sure want to sign out?</string>
+    <string name="xml_history_required_login">These data is stored in your local device, you can sign in to save them on the cloud and access them anytime and anywhere.</string>
+    <string name="msg_delete_data">Are you sure want to delete this data?</string>
+    <string name="xml_input_text_here">Input your text here!</string>
+    <string name="xml_generate">Generate</string>
+    <string name="xml_result">Result</string>
+    <string name="msg_plese_input_text">Please input your text here</string>
+    <string name="msg_barcode_char_limit">Barcode data only contains 80 charcters.</string>
+    <string name="xml_show_advanced_configuration">Show Advanced Configuration</string>
+    <string name="xml_image_svaed_to_device">Image has been saved into your device</string>
+    <string name="xml_pick_image">Pick your image here!</string>
+    <string name="xml_about">Advance QR Barcode Scanner - Generator is the best app in the universe to scan and generate qr code and barcode just for you.</string>
+    <string name="xml_sincerely">With love, from us in SheenDev</string>
+    <string name="xml_sorry_for_ads">Note : Sorry for ads, but it made this app free :)</string>
+    <string name="ads_banner">ca-app-pub-1715941241503657/4802690845</string>
+    <string name="menu_export_data">Export Data</string>
+    <string name="xml_export_to_xls">Export to XLS</string>
+    <string name="xml_export_xls_desc">Export your data into XLS</string>
+    <string name="xml_export_txt">Export to TXT</string>
+    <string name="xml_export_txt_desc">Export your data into TXT File</string>
+    <string name="xml_success">Success!</string>
+    <string name="xml_open_file">Open in Files</string>
+    <string name="err_data_empty">Cannot export, data is empty</string>
+
+
+
+    <!-- Change ads unit id for your admob -->
+    <string name="ads_id_banner">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="ads_id_intertitial">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="ads_app_id">219398274892173918230913920</string>
+
+</resources>

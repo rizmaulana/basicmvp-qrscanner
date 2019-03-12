@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    android:background="@color/colorWhite"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:id="@+id/toolbar"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/title"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/textPrimary"
+        style="@style/TitlePrimary"
+        android:text="Toolbar Title Here"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</android.support.v7.widget.Toolbar>

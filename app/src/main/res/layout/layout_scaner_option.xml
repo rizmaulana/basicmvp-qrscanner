@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_marginTop="@dimen/spaceLarge"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_copy"
+            android:drawableLeft="@drawable/ic_content_copy"
+            android:text="@string/xml_copy"
+            style="@style/ButtonPlainWhite"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btn_share"
+            android:background="@color/colorWhite"
+            android:drawableLeft="@drawable/ic_share"
+            android:text="@string/xml_share"
+            style="@style/ButtonPlainWhite"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_open"
+            android:drawableLeft="@drawable/ic_public"
+            android:text="@string/xml_open_in_browser"
+            style="@style/ButtonPlainWhite"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btn_save_image"
+            android:drawableLeft="@drawable/ic_image_small"
+            android:text="@string/xml_save_image"
+            style="@style/ButtonPlainWhite"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

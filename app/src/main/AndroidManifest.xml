@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="id.sheendev.qrbarcodescanner">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+
+    <uses-feature android:name="android.hardware.camera"/>
+
+    <application
+        android:name=".app.AppController"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_alias_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:label">
+        <activity
+            android:name=".app.module.launcher.LauncherActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".app.module.home.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".app.module.result.ResultActivity"
+            android:theme="@style/NoTitleDialog">
+        </activity>
+        <activity android:name=".app.module.history.HistoryActivity">
+        </activity>
+        <activity android:name=".app.module.profile.ProfileActivity">
+        </activity>
+        <activity android:name=".app.module.generatebarcode.GenerateBarcodeActivity">
+        </activity>
+        <activity android:name=".app.module.scanimage.ScanImageActivity">
+        </activity>
+        <activity android:name=".app.module.about.AboutActivity">
+        </activity>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="a74d82c6c11cf3713c29756325e37461b8c4202f" />
+
+        <activity android:name=".app.module.export.ExportActivity">
+        </activity>
+    </application>
+
+</manifest>

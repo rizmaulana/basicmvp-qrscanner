@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.sheendev.qrbarcodescanner.app.module.export.ExportActivity">
+
+
+
+    <include layout="@layout/toolbar"/>
+
+    <id.sheendev.qrbarcodescanner.app.ui.widget.SingleMenuLayout
+        app:sm_setIcon="@drawable/ic_xls"
+        android:id="@+id/menu_export_xls"
+        app:sm_subtitle="@string/xml_export_xls_desc"
+        app:sm_title="@string/xml_export_to_xls"
+        app:sm_showIcon="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <id.sheendev.qrbarcodescanner.app.ui.widget.SingleMenuLayout
+        app:sm_setIcon="@drawable/ic_txt"
+        android:id="@+id/menu_export_txt"
+        android:layout_marginTop="@dimen/spaceSmall"
+        app:sm_subtitle="@string/xml_export_txt_desc"
+        app:sm_title="@string/xml_export_txt"
+        app:sm_showIcon="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/layout_result"
+        android:gravity="center"
+        android:layout_margin="@dimen/spaceLarge"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            style="@style/TitlePrimary"
+            android:textColor="@color/materialGreen"
+            android:text="@string/xml_success"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txt_dir"
+            style="@style/CaptionSmall"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:src="@drawable/ic_txt"
+            android:id="@+id/img_file"
+            android:padding="@dimen/spaceLarge"
+            android:layout_width="@dimen/smallIcon"
+            android:layout_height="@dimen/smallIcon"/>
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_open"
+                android:drawableLeft="@drawable/ic_export"
+                android:text="@string/xml_open_file"
+                style="@style/ButtonPlainWhite"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btn_share"
+                android:drawableLeft="@drawable/ic_share"
+                android:text="@string/xml_share"
+                style="@style/ButtonPlainWhite"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

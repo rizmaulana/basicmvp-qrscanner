@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_marginBottom="1dp"
+    android:background="@color/colorWhite"
+    android:gravity="center"
+    android:padding="@dimen/spaceLarge"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="@dimen/verysSmallIcon"
+        android:layout_height="@dimen/verysSmallIcon"
+        android:src="@mipmap/ic_qrcode"/>
+    <LinearLayout
+        android:layout_marginLeft="@dimen/spaceMedium"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txt_date"
+            android:text="10 Januari 2018 18:00 pm"
+            style="@style/CaptionSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txt_data"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="http:sheendev.id/url/api?/"
+            style="@style/CaptionMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/img_delete"
+        android:layout_marginRight="@dimen/spaceMedium"
+        android:src="@drawable/ic_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+    <ImageView
+        android:src="@drawable/ic_chevron_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

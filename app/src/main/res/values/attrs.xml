@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SingleMenuLayout">
+        <attr name="sm_title" format="reference"/>
+        <attr name="sm_subtitle" format="reference"/>
+        <attr name="sm_showIcon" format="boolean"/>
+        <attr name="sm_setIcon" format="integer"/>
+    </declare-styleable>
+
+</resources>

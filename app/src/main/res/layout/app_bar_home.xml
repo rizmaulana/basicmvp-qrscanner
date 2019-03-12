@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient_primary"
+    android:orientation="vertical"
+    tools:context="id.sheendev.qrbarcodescanner.app.module.home.HomeActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/title"
+                style="@style/TitlePrimary"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="QR - Barcode"
+                android:textColor="@color/colorWhite"/>
+            <ImageView
+                android:layout_marginRight="@dimen/spaceExtraLarge"
+                android:id="@+id/img_flash"
+                android:src="@drawable/ic_flash_off"
+                android:layout_width="@dimen/verysSmallIcon"
+                android:layout_height="@dimen/verysSmallIcon"/>
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <include layout="@layout/content_home"/>
+
+
+</LinearLayout>

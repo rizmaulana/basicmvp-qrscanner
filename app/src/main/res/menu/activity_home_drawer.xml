@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+
+    <item android:title="@string/menu_main_menu">
+        <menu>
+            <item
+                android:id="@+id/action_history"
+                android:icon="@drawable/ic_history"
+                android:title="@string/menu_history"/>
+            <item
+                android:id="@+id/action_image_scan"
+                android:icon="@drawable/ic_image"
+                android:title="@string/menu_scan_image"/>
+            <item
+                android:id="@+id/action_gen_barcode"
+                android:icon="@mipmap/ic_barcode"
+                android:title="@string/menu_generate_barcode"/>
+            <item
+                android:id="@+id/action_gen_qrcode"
+                android:icon="@mipmap/ic_qrcode"
+                android:title="@string/menu_generate_qrcode"/>
+
+            <item
+                android:id="@+id/action_export_data"
+                android:icon="@drawable/ic_export"
+                android:title="@string/menu_export_data"/>
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/action_setting"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/menu_setting"/>
+</menu>

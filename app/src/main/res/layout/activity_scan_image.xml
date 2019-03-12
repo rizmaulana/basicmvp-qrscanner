@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.sheendev.qrbarcodescanner.app.module.scanimage.ScanImageActivity">
+
+    <include layout="@layout/toolbar"/>
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="@dimen/spaceLarge"
+                android:background="@color/colorWhite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="@string/xml_pick_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:id="@+id/btn_pick_image"
+                    android:layout_marginTop="@dimen/spaceMedium"
+                    style="@style/ButtonFillPrimary"
+                    android:text="Pick Image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_margin="@dimen/spaceLarge"
+                android:text="@string/xml_result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="@dimen/spaceLarge"
+                android:gravity="center"
+                android:background="@color/colorWhite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/img_code"
+                    android:src="@drawable/img_qrcode_thum"
+                    android:layout_width="@dimen/smallIcon"
+                    android:layout_height="@dimen/smallIcon"/>
+
+                <TextView
+                    android:id="@+id/txt_result"
+                    android:layout_marginTop="@dimen/spaceMedium"
+                    android:gravity="center"
+                    android:textSize="@dimen/textMedium"
+                    style="@style/TitleSecondary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <include layout="@layout/layout_scaner_option"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>
