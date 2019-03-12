@@ -30,12 +30,12 @@ Untuk mengubah nama dan package aplikasi silakan buka directory **/app/src/build
 
 Semoga bermanfaat
 
-#License
+###License
 ````
-DO WHAT YOU WANT TO PUBLIC LICENSE
-                    Version 3, January 2012
+              DO WHAT YOU WANT TO PUBLIC LICENSE
+                     Version 1, March 2019
 
- Copyright (C) 2012 Ryan Thompson
+ Copyright (C) Rizki Maulana (rizmaulana@live.com)
 
  Everyone is permitted to copy and distribute verbatim or modified
  copies of this license document, and changing it is allowed as long
