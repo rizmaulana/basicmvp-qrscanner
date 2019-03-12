@@ -12,14 +12,21 @@ Aplikasi QR Code scanner dengan Admob (Banner dan Interstitial) dengan fitur :
 5. QR dan Barcode generator
 etc
 
-Untuk konfigurasi Admob silakan buka direktory **/app/src/main/res/values/strings.xml** kemudian ganti konfiguurasi admob pada variabel :
+Untuk konfigurasi Admob silakan buka direktory **/app/src/main/res/values/strings.xml** kemudian ganti konfigurasi admob pada variabel :
+
 **ads_id_banner**
+
 **ads_id_intertitial**
+
 **ads_app_id**
 
+
 Untuk mengubah nama dan package aplikasi silakan buka directory **/app/src/build.gradle** dan ubah konfigurasi :
+
 **package_name**
+
 **app_alias_name**
+
 
 Semoga bermanfaat
 
